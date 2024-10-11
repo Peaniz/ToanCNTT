@@ -1,0 +1,46 @@
+Chương 1: Viết hàm bằng C/C++
+
+Bài tập số 1: (slide số 9)
+Cho số n lớn hơn 1. Viết chương trình (viết hàm) thực hiện phân rã thừa số nguyên tố.
+Note: 
++ Hàm xác định số nguyên tố
+
+unique prime factorization:
+
+Bài 2:(slide số 10)
+Viết chương trình tính số lượng các ước số của n (tính cả 1) và liệt kê chúng.
++ cho chạy từ 1 -> căn n. Số lượng ước số bằng số ước số tính đc + 1 (vì n cũng là ước số)
+
+Bài 3:(slide số 11)
+Tính tổng các ước số
+sigma(n)
+
+Baì 4: (slide số 12)
+Tính tích các ước Số
+
+Bài 5: (slide số 13)
+Viết chương trình kiểm tra số có phải là số hoàn hảo hay không
++ chạy từ 1 -> n/2 (kĩ thuật lập trình)
++ sigma(n) = 2n là n là số hoàn hảo 
+
+Bài 6: (slide số 15)
+Viết hàm tính Mật độ các số nguyên tố
++ ln in C language
+
+Bài 7: (slide số 21)
+Viết hàm biểu diễn sàn Eratosthenes (n >= 2), liệt kê các số nguyên tố trong khoảng từ 2...n.
++ Cho n >= 2 và số a trong khoảng từ 2...n. Liệt kê các số nguyên tố trong khoảng từ a...n (alternate question)
++ Chú ý đến độ phức tạp của thuật toán (Thuật toán chỉ cần có O(nlogn))
+Slide 22: ta lấy các số nguyên tố nhân cho k = 2. Xong ta điền vào các ô của số tính được với ước số nguyên tố lớn nhất
+O(n) vòng lặp for
+O(nlogn) vòng lặp for có biến k
+O(n^2) 2 vòng lặp lồng nhau
+
+Bài 2 -> 6: nên viết hàm bằng con trỏ và gọi hàm bằng &
+
+
+
+
+
+
+

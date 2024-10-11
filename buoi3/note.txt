@@ -1,0 +1,28 @@
+Chap 2: Đại số tuyến tính
++ pp phân rã ma trận:
+bài 1: giải hệ pt bậc 3
+**biểu diễn vector: bằng chữ in đậm (thay vì dùng mũi tên trên chữ)
+nhân vector:
+a.b: tích vô hướng (là 1 số)
+axb: tích có hướng (là 1 vector vuông góc với mặt phẳng chứa 2 vector ấy)
+
+Cholesky:
+*A = KDk^T
+điều kiện (cổ điển): ma trận phải vuông và đối xứng
+vd:           1   2   3
+        A=    2   1   4
+              3   4   1
+xđ dương: tất cả các định thức của các ma trận con tương ứng phải dương thì xđ dương
+vd: A1 = 1, A2 = 1*1 - 2*2 <0 => ma trận trên ko xđ dương (1)
+
+
+**A = LL^T (Cholesky Factorization)
+xây dựng 4 hàm Cholesky, transpose, nhân ma trận, kiểm thử
+**Cholesky L^D*L^T: vuông, đx nhưng ko xđ dương
+
+Viết chương trình phân rã ma trận bằng 2 cách
++   Cholesky cổ điển
++   Cholesky biến thể
+
+viết hàm nhân ma trận, kiểm tra đối xứng, kiểm tra ma trận sau đối xứng
+

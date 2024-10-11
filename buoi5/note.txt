@@ -1,0 +1,25 @@
+ Cho ma trận A, phân rã ma trận A bằng SVD
+Bước 1: Tính S = A^T*A, tìm giá trị riêng và vector riêng của giá trị S
+giả sử giá trị riêng đó là lambda thì ta sẽ tính được công thức là: σi ^ 2 =λi
+Công thức tính u: Slide trang 63 (chương 2) 
+ui = (1/σi)*Avi
+
+b1: cho ma trận A mxn (không vuông)
+A = U x Sigma X V^T 
+S = A^T x A
+tìm giá trị riêng, vector riêng của S. 
+---------------------------------
+SVD
+right-singular vectors là ma trận vector riêng sắp xếp giảm dần từ trái qua phải
+
+Ví dụ: Thực hiện phân rã ma trận bằng phương pháp SVD (3x3)
+Giải phương trình đặc trưng 
+Dùng thư viện chỉ để tìm giá trị riêng vector riêng thôi, nhớ phải kiểm tra chuẩn hóa hay chưa.
+
+Cho ma trận A   [2,3 , B [2, -1
+                 0,2]     2,  2 ]
+Đáp án của A:u=  [2/can5, -1/can5
+                  1/can5, ....]
+            σ=   [4 0
+                  0 1]
+            V^t = []

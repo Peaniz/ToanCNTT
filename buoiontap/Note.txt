@@ -1,0 +1,13 @@
+Đề 1:
+Câu 1:Viết chương trình có sử dụng hàm thực hiện các câu lệnh sau:
+a. Tìm số lượng các nguyên tố nằm trong khoảng m-n(m = 300, n = 500, k =436)
+b. Trong các số nguyên tố vừa tìm được số nào tìm đc gần số k nhất
+Câu 2: Viết chương trình có sử dụng hàm phân rã bằng phương pháp :
+a. Chéo hóa
+b. SVD
+Ma trận A = [1,2,3;1,2,4;1,2,5]
+Câu 3:
+a. Tìm số nguyên tố gần n nhất
+b. Cho M là tập hợp chứa các số nguyên tố cùng nhau với n. Hãy xác định có bao nhiều phần tử của M là số hoàn hảo. Liệt kê và tính tổng của chúng
+n = 301
+Mi sao cho i <= 2000

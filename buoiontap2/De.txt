@@ -1,0 +1,20 @@
+Cho hệ phương trình tổng dư sau. Viết chương trình giải hệ hàm (bài toán trung hoa)
+x = 2mod5
+x = 3mod7
+x = 4mod9
+x = 5mod11
+x = 6mod13
+
+Câu 2: Cho ma trận viết chương trình thực hiện phân rã ma trận
+a: Phân rã bằng Cholesky biến thể (LDLT)
+b: Phân rã bằng chéo hoá (eigen decomposition)
+
+Ma trận:
+-10 4  7
+ 4 -5  8
+ 7  8 -9
+
+ Câu 3: Thực hiện phân rã ma trận bằng SVD 
+ 0  5  10
+ 5  5  5
+ 10 10 10

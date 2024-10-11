@@ -1,0 +1,17 @@
+Slide trang 26
+Bài1 : Viết chương trình trả về UCLN và BCNN của 1 số
+Cho biết a,b
+gcd(UCLN) (Euclid algorithm)
+lcm(BCNN)
+
+Slide 29
+Bài 2: Cho n nguyên dương nhập vào bàn phím, xác định số lượng các số nguyên tố cùng nhau với n, và liệt kê các số đấy (dùng Euler's totient function)
++ a và b là 2 số nguyên tố cùng nhau (coprime) khi UCLN của chúng = 1 (gcd = 1)
++ Kiểm tra số nguyên tố, đọc theo node màu đỏ slide 29
++ Note: thay vì từ 1->n, thay đổi thành a-> n với a nhập từ bàn phím
+Slide 32
+
+Slide 44
+Bài 4: Viết chương trình sử dụng hàm giải hệ phương trình tổng dư với ít nhất là 4 phương trình trở lên (x^-1 không phải là 1/x ở trường hợp này)
+Lưu ý đáp số lấy kết quả % ra đáp án số dư
+
